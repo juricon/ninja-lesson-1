@@ -311,7 +311,8 @@ top: -30px;
 .text-margin-top{
     margin-top:20px;
 }
-.third-block-header{
+.third-block-header,
+.fourth-block-red-text{
 color: rgb(220, 0, 0);
 font-family: Lato, sans-serif;
 font-size: 30px;
@@ -350,7 +351,8 @@ margin-bottom:15px;
     box-sizing: border-box;
 }
 .third-block-4sizes:hover,
-.third-block-buttons:hover{
+.third-block-buttons:hover,
+.fourth-block-button:hover{
     background:rgb(51, 51, 51) ;
     color:white;
 }
@@ -361,8 +363,9 @@ margin-bottom:15px;
 .third-block-4sizes:nth-child(2):hover{
     background:rgba(51, 51, 51, 0.5)
 }
-.third-block-buttons{
-    width: 175px;
+.third-block-buttons,
+.fourth-block-button{
+    width: 170px;
     height: 51px;
     border: 2px solid rgb(51, 51, 51);
     display:inline-block;
@@ -373,12 +376,14 @@ margin-bottom:15px;
     line-height: 51px;
     text-align: center;
     margin-right:30px;
-    box-sizing: border-box;
 }
 /*===================third block styles end===================*/
 /*===================fourth block styles===================*/
 .fourth-block{
     height:1051px;/*  убери паддингами*/
+}
+.fourth-block-left-column{
+    margin-right: 30px;
 }
 .fourth-block-header{
     font-style: italic;
@@ -388,14 +393,37 @@ margin-bottom:15px;
 }
 
 
+
+.fourth-block-red-text{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.fourth-block-by{
+    opacity: 0.8;
+    color: rgb(51, 51, 51);
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.two-from-blog hr{
+    margin-top:30px;
+    margin-bottom:35px;
+}
+.two-from-blog hr:nth-of-type(2){
+    margin-top:35px;
+    margin-bottom:30px;
+}
+.fourth-block-main-text{
+    opacity: 0.6;
+    color: rgb(51, 51, 51);
+    font-family: "Open Sans",sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+}
 .fourth-block-button{
     text-transform: uppercase;
-    width: 170px;
-    height: 51px;
-    border:1px solid rgb(51, 51, 51);
-    color: rgb(51, 51, 51);
-    font-family:  "Open Sans", sans-serif;
-    font-size: 16px;
     font-weight: 700;
 }
 
