@@ -1,0 +1,402 @@
+/*===================main styles start===================*/  
+.wrapper{
+    width:1190px;
+    margin:0 auto;
+    text-align:center;
+}
+
+.clearfix:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+a{
+    text-decoration:none;
+}
+/*===================main styles end===================*/
+
+/*====================header styles start===================*/
+.background-header{
+    background: url("../images/color_overlay.jpg")no-repeat top center;
+}
+
+.logo-link{
+    display: inline-block;
+    opacity: 0.8;
+    color: rgb(220, 0, 0);
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top:30px;
+    float:left;
+}
+
+.logo-brand{
+    font-family: "Conv_BebasNeue_Regular";
+    font-size: 48px;
+}
+.logo-ly{
+    font-family: "Conv_BebasNeue_Regular";
+    font-size: 36px;
+}
+.nav-list{
+    float:right;
+    margin-top:40px;
+}
+.nav-list ul li{
+    display:inline-block;
+    margin-left:75px;
+}
+.nav-list ul li a{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19px;
+    color:white;
+}
+.nav-list ul li a:hover{
+    border-bottom: 3px solid rgba(220, 0, 0, 0.5)
+}
+
+.header-content{
+    text-align:center;
+    margin-top:250px;
+    padding-bottom:277px;
+}
+.header-cnt-1ln{
+    text-transform: uppercase;
+    color: white;
+    font-family: "Droid Sans";
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom:50px;
+    letter-spacing:10px ;
+}
+.header-cnt-2ln{
+    height: 46px;
+    color: white;
+    font-family: Lato;
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom:50px;
+}
+.header-cnt-3ln{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 36px;
+    margin-bottom:55px;
+}
+.header-button{
+    display:inline-block;
+    padding:0 48px;
+    border:2px solid white;
+    color:white;
+    border-radius:3px;
+    font-family:  "Droid Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 56px;
+}
+.header-button:hover{
+    color:rgb(220, 0, 0 );
+    border: 2px solid rgba(220, 0, 0, 0.5);
+}
+/*====================header styles end===================*/
+/*====================second block styles start===================*/
+.second-block{
+
+}
+.second-block-text{
+
+    color: rgb(51, 51, 51);
+    font-family: "Open Sans";
+    font-size: 40px;
+    font-style: italic;
+    display:block;
+    padding-top:90px ;
+    margin-bottom:90px;
+}
+.second-block-text:before{
+    content:"";
+    width: 112px;
+    height: 3px;
+    background-color: rgb(220, 0, 0);
+    position: relative;
+    display: block;
+    left: calc(50% - 56px);
+    top: -30px;
+}
+.second-block-text:after{
+    content:"";
+    width: 112px;
+    height: 3px;
+    background-color: rgb(220, 0, 0);
+    position: relative;
+    display: block;
+    left: calc(50% - 56px);
+    bottom: -30px;
+}
+
+.second-block-ul{
+    margin-bottom:30px;
+}
+
+.second-block-3img{
+    float: left;
+    height:418px;
+    width: 370px;
+    background-size: cover;
+}
+.second-block-3img:nth-child(1){
+    background:url("../images/men.png");
+}
+.second-block-3img:nth-child(2) {
+    background: url("../images/woman.png");
+    margin: 0 30px;
+}
+.second-block-3img:nth-child(3){
+    background:url("../images/watches.png");
+}
+
+.second-block-3img:nth-child(1):hover,
+.second-block-3img:nth-child(2):hover,
+.second-block-3img:nth-child(3):hover,
+.second-block-twoimg-item:nth-child(1):hover,
+.second-block-twoimg-item:nth-child(2):hover{
+    opacity: 0.8;
+}
+.second-block-3img-link{
+    display:block;
+    height:420px;
+    width: 370px;
+}
+.three-block-ink-text {
+    display: block;
+    color: white;
+    font-family:"Open Sans" ,sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    line-height: 19px;
+    border: 2px solid white;
+    margin: 31px 27px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-block-twoimg-item{
+    width: 570px;
+    height: 418px;
+    background-size: cover;
+    display:inline-block;
+}
+.second-block-float{
+    float:left;
+}
+.second-block-twoimg-item:nth-child(1){
+    background: url("../images/girl-and wall.png");
+    margin-right:30px;
+}
+.second-block-twoimg-item:nth-child(2){
+    background: url("../images/girl-in white dress.png");
+}
+.second-block-twoimg-link{
+    display:block;
+    width: 570px;
+    height: 418px;
+    float:left;
+}
+.twoimg-block-link-text{
+    display: block;
+    line-height: 49px;
+    padding:140px 150px;
+    color: white;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+}
+.twoimg-block-link-text:before{
+    content:"";
+    width: 192px;
+    height: 1px;
+    background-color: white;
+    position: relative;
+    display: block;
+    left: calc(50% - 96px);
+    top: -25px;
+}
+.twoimg-block-link-text:after{
+    content:"";
+    width: 192px;
+    height: 1px;
+    background-color: white;
+    position: relative;
+    display: block;
+    left: calc(50% - 96px);
+    bottom: -25px;
+}
+.styles-last-img{
+    text-transform: uppercase;
+    padding:140px 100px;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+}
+.second-block-two-img {
+    margin-bottom:60px;
+}
+/*====================second block styles end===================*/
+
+/*===================third block styles===================*/
+.third-block{
+    padding-bottom:125px;
+    background:url("../images/thirdblock-background.jpg") no-repeat center;
+}
+.third-block-text,
+.fourth-block-header{
+    color: rgb(51, 51, 51);
+    font-family: "Open Sans",sans-serif;
+    font-size: 40px;
+    display:block;
+    padding-top:91px ;
+    margin-bottom:90px;
+    font-style:italic;
+    font-weight: 400;
+}
+.third-block-text:before,
+.third-block-text:after,
+.fourth-block-header:before,
+.fourth-block-header:after {
+    content: "";
+    width: 112px;
+    height: 3px;
+    background-color: rgb(220, 0, 0);
+    position: relative;
+    display: block;
+    left: calc(50% - 56px);
+}
+.third-block-text:before,
+.fourth-block-header:before{
+top: -30px;
+}
+.third-block-text:after,
+.fourth-block-header:after{
+    bottom: -30px;
+}
+
+.jacket-img{
+    width:570px;
+    display:block;
+    float:left;
+    margin-right:30px;
+}
+.inform-and-size-box,
+.fourth-block-left-column,
+.fourth-block-right-column{
+    float:left;
+    width:570px;
+    text-align: left;
+}
+.seperaitor{
+    content: "";
+    width: 30px;
+    height: 1px;
+    background-color: black;
+    position: relative;
+    display: block;
+    left: 0;
+    margin:30px 0;
+}
+.text-margin-top{
+    margin-top:20px;
+}
+.third-block-header{
+color: rgb(220, 0, 0);
+font-family: Lato, sans-serif;
+font-size: 30px;
+font-weight: 700;
+margin-top:15px;
+margin-bottom:15px;
+}
+.third-block-style-text{
+    color: rgb(119, 119, 119);
+    font-family: "Myriad Pro",sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+.third-block-style-text:nth-child(6){
+    margin-bottom:90px;
+}
+.third-block-sizes-buttons{
+    margin-top:30px;
+}
+.third-block-4sizes{
+    width: 70px;
+    height: 51px;
+    border:1px  solid  rgb(51, 51, 51);
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+    display:inline-block;
+    line-height: 51px;
+    text-align: center;
+    color: rgb(51, 51, 51);
+    font-family: "Open Sans", sans-serif ;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right:30px;
+    box-sizing: border-box;
+}
+.third-block-4sizes:hover,
+.third-block-buttons:hover{
+    background:rgb(51, 51, 51) ;
+    color:white;
+}
+.third-block-4sizes:nth-child(2){
+    background:rgb(51, 51, 51) ;
+    color:white;
+}
+.third-block-4sizes:nth-child(2):hover{
+    background:rgba(51, 51, 51, 0.5)
+}
+.third-block-buttons{
+    width: 175px;
+    height: 51px;
+    border: 2px solid rgb(51, 51, 51);
+    display:inline-block;
+    color: rgb(51, 51, 51);
+    font-family: "Myriad Pro",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 51px;
+    text-align: center;
+    margin-right:30px;
+    box-sizing: border-box;
+}
+/*===================third block styles end===================*/
+/*===================fourth block styles===================*/
+.fourth-block{
+    height:1051px;/*  убери паддингами*/
+}
+.fourth-block-header{
+    font-style: italic;
+    margin-top:100px;
+    margin-bottom:100px;
+    padding-top:1px;
+}
+
+
+.fourth-block-button{
+    text-transform: uppercase;
+    width: 170px;
+    height: 51px;
+    border:1px solid rgb(51, 51, 51);
+    color: rgb(51, 51, 51);
+    font-family:  "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/*===================fourth block styles===================*/
