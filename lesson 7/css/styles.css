@@ -380,7 +380,7 @@ margin-bottom:15px;
 /*===================third block styles end===================*/
 /*===================fourth block styles===================*/
 .fourth-block{
-    height:1051px;/*  убери паддингами*/
+
 }
 .fourth-block-left-column{
     margin-right: 30px;
@@ -391,9 +391,6 @@ margin-bottom:15px;
     margin-bottom:100px;
     padding-top:1px;
 }
-
-
-
 .fourth-block-red-text{
     margin-top:30px;
     margin-bottom:30px;
@@ -427,4 +424,93 @@ margin-bottom:15px;
     font-weight: 700;
 }
 
-/*===================fourth block styles===================*/
+.two-from-blog{
+    margin-bottom:60px;
+}
+/*===================fourth block styles end===================*/
+
+/*===================fifth block styles ===================*/
+
+.fifth-block{
+    /*padding-bottom:80px; */
+    background: url("../images/girl_lin.jpg")no-repeat center;
+}
+.fifth-block-text{
+    color: white;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align:left;
+    margin-bottom:30px;
+}
+
+.fifth-block-input{
+    padding:75px 0 80px;
+}
+.input-email{
+    background: rgba(0,0,0,0);
+    width: 771px;
+    height: 51px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    outline: none;
+    color:white;
+    font-family: "Open Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding:0 80px;
+    background-repeat: no-repeat;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAbFBMVEX///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////82G0A9AAAAI3RSTlMAr/TEgH8ElBGwYCUsRI4Kafv5Z3zCe/jmOgHlxhrFmgeZF0V8qJwAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAAYklEQVQI11XOSRaCMBRE0QpYtCKdIFED0b//PQqE5Mgb3kkVVCR/xYBcCF+SygoIkuXFDl7K/AoHTqpbDQ8Uomk3dcCuvw9j/+ABnDTwBPSLO/BtjhUzc4PFhh/2s4KSU98f+7UJNoZb+tcAAAAASUVORK5CYII=');
+    background-position: 27px 20px;
+    float:left;
+}
+.input-email:-moz-placeholder{
+    color:#fff;
+}
+.input-email::-moz-placeholder{
+    color:#fff;
+}
+.input-email::-webkit-input-placeholder{
+
+    color:#fff;
+}
+.input-btn{
+    vertical-align: top;
+    width: 270px;
+    height: 51px;
+    background-color: white;
+    border:0;
+    margin:0;
+    color: black;
+    font-family: "Open Sans",sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    float:right;
+    outline:none;
+    cursor:pointer;
+}
+/*===================fifth block styles end===================*/
+
+/*===================footer block styles===================*/
+.footer{
+    text-align: center;
+}
+.footer-text{
+    opacity: 0.6;
+    color: rgb(51, 51, 51);
+    font-family: Lato,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160px;
+}
+i.heart{
+    position:relative;
+    top:3px;
+    left:3px;
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAMAAAAhxq8pAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAgVBMVEXcAADcAADcAADcAADcAADcAADcAADcAADcAADcAADcAADcAADcAADcAADcAADcAADcAADcAADcAADcAADcAADcAADcAADcAADcAADcAADcAADcAADcAADcAADcAADcAADcAADcAADcAADcAADcAADcAADcAADcAADcAADcAAD///8E56k6AAAAKXRSTlMALaTm35AXj1j46TNaLvnip6nq+trbgoMK0hob1NUSwAWaYPXzXCjTnzm+sxEAAAABYktHRCpTvtSeAAAACXBIWXMAAAsSAAALEgHS3X78AAAAgUlEQVQY02XOWQ6CQBBF0csgCgooiDaiDA5A7X+D2ghB6fv1cpJKCrBsR9yVB97aFce2+LTxRRdY22AY/g7CSL658TiikL0YHUhMTEhNTDmamHEy8YzKl5YruGSL40J/X1x/7TYYlNVsVclY3UzW1MzdH5qeL/5qO5GuZZHqezXtN6WwIneyHpGBAAAAAElFTkSuQmCC');
+}
+/*===================footer block styles end===================*/
