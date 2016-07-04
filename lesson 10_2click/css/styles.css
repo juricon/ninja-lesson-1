@@ -1,0 +1,16 @@
+body{
+    width:1170px;
+    margin:0 auto;
+    text-align:center;
+}
+.father-block{
+    background: darkgrey;
+    color:navajowhite;
+    margin-bottom: 2.5em;
+    padding:5em 8em;
+}
+.header{
+    margin-bottom:1em;
+    color:whitesmoke;
+    font-family: 'Lato', sans-serif;
+}
