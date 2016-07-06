@@ -1,19 +1,26 @@
 body{
-    width:1170px;
+  width:80%;
     margin:0 auto;
     text-align:center;
+    background:#2E94B9;
+    /*position: absolute;*/
+}
+.mather-block{
+    position: relative;
+    margin:10%;
 }
 .father-block{
-    width:30%;
+    width:50%;
     background: darkgrey;
     color:navajowhite;
     padding:2em 5em;
-    margin:0 auto;
-    opacity: 0.9;
-  /*  display: none;*/ /*active when
+    margin:20% 20% 0;
+    position: relative;
+    /*  display: none;*/ /*active when
   you need to jq .show(400) or
   .fadeIn(1000) */
 }
+
 .header{
     margin-bottom:1em;
     color:whitesmoke;
@@ -26,4 +33,7 @@ body{
     border-radius:2em ;
     cursor: pointer;
     outline: none;
+    position: relative;
+   top:60%;
+    left:4%;
 }
