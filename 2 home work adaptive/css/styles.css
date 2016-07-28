@@ -651,6 +651,18 @@ a{
     width:245px;
     float: right;
 }
+#seventh-block-input-text{
+    width: 400px;
+    height: 47px;
+    color: rgb(76, 75, 75);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 56px;
+    font-weight: 300;
+    line-height: 30px;
+    background: rgb(51, 51, 51);
+    border:0;
+    outline: none;
+}
 .seventh-block-form-submit-btn{
     border:0;
     padding:0;
