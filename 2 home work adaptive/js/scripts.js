@@ -21,5 +21,6 @@ $(document).ready(function(){
     $('.fourth-block-block4').hover(function(){
         $('.fourth-block-block-hover-block4').fadeToggle('fast');
     });
-  $('.bxslider').bxSlider();
+    $('.bxslider').bxSlider();
+    $('.seventh-block-form-input').submit();
 });
