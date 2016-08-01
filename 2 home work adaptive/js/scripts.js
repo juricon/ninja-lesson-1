@@ -24,3 +24,4 @@ $(document).ready(function(){
     $('.bxslider').bxSlider();
     $('.seventh-block-form-input').submit();
 });
+
