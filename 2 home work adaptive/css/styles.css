@@ -401,10 +401,10 @@ a{
     font-weight: 400;
     font-family: 'PT_Sans_almost_Myriad_Pro', sans-serif;
 }
-.fourth-block-4blocks{
-    width:100%;
+/*.fourth-block-4blocks{
+     width:100%;
 
-}
+ }*/
 .four-blocks{
     width:290px;
     height:317px;
@@ -598,6 +598,7 @@ a{
     border:0;
     margin-bottom:35px;
     padding:0 10px;
+    outline:none;
  }
 .sixth-block-input-select{
     width: 382px;
@@ -632,6 +633,7 @@ a{
     border: 1px solid rgb(204, 204, 204);
     font-size: 20px;
     box-sizing: border-box;
+    outline:none;
 }
 ._input-text-select-margin{
     margin-right:30px;

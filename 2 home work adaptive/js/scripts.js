@@ -1,13 +1,4 @@
 
-/*
-
-<script>
-$(function(){
-    $('.header-nav"').slicknav();
-});
-</script>*/ /* закоментил до разработк адаптива*/
-
-
 $(document).ready(function(){
     $('.fourth-block-block1').hover(function(){
         $('.fourth-block-block-hover-block1').fadeToggle('fast');
@@ -23,5 +14,8 @@ $(document).ready(function(){
     });
     $('.bxslider').bxSlider();
     $('.seventh-block-form-input').submit();
+    $('.menu').slicknav({
+        prependTo:'.header-mobile-menu'
+    });
 });
 
